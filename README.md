@@ -1,28 +1,61 @@
-# Data Cleaning and Preprocessing
+# Data Cleaning and Preprocessing using Pandas
 
-## Objective
-The objective of this task was to clean and preprocess the Customer Personality Analysis dataset using Python and Pandas.
+## Project Overview
+
+This project demonstrates the complete data cleaning and preprocessing workflow using Python and Pandas on the Customer Personality Analysis dataset.
+
+The goal was to transform raw data into a clean, consistent, and analysis-ready dataset.
+
+---
 
 ## Dataset
-Customer Personality Analysis (Kaggle)
+
+- Dataset: Customer Personality Analysis
+- Source: Kaggle
+
+---
 
 ## Tools Used
+
 - Python
 - Pandas
 - Jupyter Notebook
 
-## Data Cleaning Steps Performed
+---
 
-1. Loaded the dataset using Pandas.
-2. Read the dataset using the correct tab (`\t`) separator.
-3. Checked for missing values using `isnull().sum()`.
-4. Filled missing values in the `Income` column with the mean value.
-5. Checked for duplicate rows and confirmed no duplicates were present.
-6. Converted the `Dt_Customer` column from text to datetime format.
-7. Renamed all column headers to lowercase and replaced spaces with underscores.
-8. Standardized text columns (`education` and `marital_status`).
-9. Verified the data types of all columns.
-10. Saved the cleaned dataset as `cleaned_marketing_campaign.csv`.
+## Data Cleaning Steps
+
+- Loaded the dataset
+- Handled missing values in the Income column
+- Checked and removed duplicate records
+- Converted the customer registration date to datetime format
+- Standardized text values
+- Renamed column headers
+- Verified data types
+- Exported the cleaned dataset
+
+---
+
+## Files
+
+- marketing_campaign.csv
+- cleaned_marketing_campaign.csv
+- data_cleaning.ipynb
+- README.md
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Preprocessing
+- Pandas
+- Python
+- Data Quality Assessment
+- Feature Preparation
+
+---
 
 ## Outcome
-The dataset is now clean, consistent, and ready for further analysis and visualization.
+
+The cleaned dataset is ready for data analysis, visualization, and machine learning applications.
